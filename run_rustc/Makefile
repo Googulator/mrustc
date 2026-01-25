@@ -45,6 +45,7 @@ TARGETVER_LEAST_1_29 := $(shell test "$(RUSTC_VERSION)" ">" "1.29" && echo yes)
 TARGETVER_LEAST_1_39 := $(shell test "$(RUSTC_VERSION)" ">" "1.39" && echo yes)
 TARGETVER_LEAST_1_54 := $(shell test "$(RUSTC_VERSION)" ">" "1.54" && echo yes)
 TARGETVER_LEAST_1_74 := $(shell test "$(RUSTC_VERSION)" ">" "1.74" && echo yes)
+TARGETVER_LEAST_1_90 := $(shell test "$(RUSTC_VERSION)" ">" "1.90" && echo yes)
 
 RUSTC_BINNAME := rustc_binary
 CARGO_FLAGS_rustc := 
